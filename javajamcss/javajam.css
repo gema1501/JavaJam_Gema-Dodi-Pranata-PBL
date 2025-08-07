@@ -19,16 +19,16 @@ header {
   /* modifikasi background seharusnya ada di h1 */
   /* background-color: var(--accent-color); */
   text-align: center;
-}
 
-header h1 {
-  background-color: var(--accent-color);
-  line-height: 2;
-}
+  h1 {
+    background-color: var(--accent-color);
+    line-height: 2;
+  }
 
-header nav {
-  text-align: center;
-  font-weight: bold;
+  nav {
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 /* footer */
