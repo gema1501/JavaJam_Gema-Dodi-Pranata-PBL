@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #fcebb6;
+  --text-color: #221811;
+  --accent-color: #d2b48c;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+
+  /* centered page layout */
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  /* modifikasi background seharusnya ada di h1 */
+  /* background-color: var(--accent-color); */
+  text-align: center;
+
+  h1 {
+    background-color: var(--accent-color);
+    line-height: 2;
+  }
+
+  nav {
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+/* footer */
+footer {
+  background-color: var(--accent-color);
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+}
